@@ -51,7 +51,7 @@ if(WIN32 OR APPLE)
   # so we're left with this if/else/endif pattern.
   set(DEFAULT_WANT_CPPUNIT OFF)
 else()
-  set(DEFAULT_WANT_CPPUNIT ON)
+  set(DEFAULT_WANT_CPPUNIT OFF)
 endif()
 option(WANT_CPPUNIT "Enables CppUnit and tests" ${DEFAULT_WANT_CPPUNIT})
 
